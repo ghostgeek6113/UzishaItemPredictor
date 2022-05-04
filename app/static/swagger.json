@@ -1,0 +1,413 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "Jacob Kingi",
+    "version": "1.0.0",
+    "title": "Profesee coding assessment",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "tags": [
+    {
+      "name": "Pricing API",
+      "description": "Assessment API"
+    }
+  ],
+  "servers": [
+    {
+      "url": "/"
+    },
+    {
+      "url": "localhost/"
+    }
+  ],
+  "components": {
+    "schemas": {
+      "PredictPrice": {
+        "type": "object",
+        "properties": {
+          "*args": {
+            "type": "object"
+          }
+        }
+      },
+      "ItemObejct": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "required": true
+          },
+          "feature_1": {
+            "type": "integer"
+          },
+          "feature_2": {
+            "type": "integer"
+          },
+          "feature_3": {
+            "type": "integer"
+          },
+          "feature_4": {
+            "type": "integer"
+          },
+          "feature_5": {
+            "type": "integer"
+          },
+          "feature_6": {
+            "type": "integer"
+          },
+          "feature_7": {
+            "type": "integer"
+          },
+          "feature_8": {
+            "type": "integer"
+          },
+          "feature_9": {
+            "type": "integer"
+          },
+          "feature_10": {
+            "type": "integer"
+          },
+          "feature_11": {
+            "type": "integer"
+          },
+          "feature_12": {
+            "type": "integer"
+          },
+          "feature_13": {
+            "type": "integer"
+          },
+          "feature_14": {
+            "type": "integer"
+          },
+          "feature_15": {
+            "type": "integer"
+          },
+          "feature_16": {
+            "type": "integer"
+          },
+          "feature_17": {
+            "type": "integer"
+          },
+          "feature_18": {
+            "type": "integer"
+          },
+          "feature_19": {
+            "type": "integer"
+          },
+          "feature_20": {
+            "type": "integer"
+          },
+          "feature_21": {
+            "type": "integer"
+          },
+          "feature_22": {
+            "type": "integer"
+          },
+          "feature_23": {
+            "type": "integer"
+          },
+          "feature_24": {
+            "type": "integer"
+          },
+          "feature_25": {
+            "type": "integer"
+          },
+          "feature_26": {
+            "type": "integer"
+          },
+          "feature_27": {
+            "type": "integer"
+          },
+          "feature_28": {
+            "type": "integer"
+          },
+          "feature_29": {
+            "type": "integer"
+          },
+          "feature_30": {
+            "type": "integer"
+          },
+          "feature_31": {
+            "type": "integer"
+          },
+          "feature_32": {
+            "type": "integer"
+          },
+          "feature_33": {
+            "type": "integer"
+          },
+          "feature_34": {
+            "type": "integer"
+          },
+          "feature_35": {
+            "type": "integer"
+          },
+          "feature_36": {
+            "type": "integer"
+          },
+          "feature_37": {
+            "type": "integer"
+          },
+          "feature_38": {
+            "type": "integer"
+          },
+          "feature_39": {
+            "type": "integer"
+          },
+          "feature_40": {
+            "type": "integer"
+          },
+          "feature_41": {
+            "type": "integer"
+          },
+          "feature_42": {
+            "type": "integer"
+          },
+          "feature_43": {
+            "type": "integer"
+          },
+          "feature_44": {
+            "type": "integer"
+          },
+          "feature_45": {
+            "type": "integer"
+          },
+          "feature_46": {
+            "type": "integer"
+          },
+          "feature_47": {
+            "type": "integer"
+          },
+          "feature_48": {
+            "type": "integer"
+          },
+          "feature_49": {
+            "type": "integer"
+          },
+          "feature_50": {
+            "type": "integer"
+          },
+          "feature_51": {
+            "type": "integer"
+          },
+          "feature_52": {
+            "type": "integer"
+          },
+          "feature_53": {
+            "type": "integer"
+          },
+          "feature_54": {
+            "type": "integer"
+          },
+          "feature_55": {
+            "type": "integer"
+          },
+          "feature_56": {
+            "type": "integer"
+          },
+          "feature_57": {
+            "type": "integer"
+          },
+          "feature_58": {
+            "type": "integer"
+          },
+          "feature_59": {
+            "type": "integer"
+          },
+          "feature_60": {
+            "type": "integer"
+          },
+          "feature_61": {
+            "type": "integer"
+          },
+          "feature_62": {
+            "type": "integer"
+          },
+          "feature_63": {
+            "type": "integer"
+          },
+          "feature_64": {
+            "type": "integer"
+          },
+          "feature_65": {
+            "type": "integer"
+          },
+          "feature_66": {
+            "type": "integer"
+          },
+          "feature_67": {
+            "type": "integer"
+          },
+          "feature_68": {
+            "type": "integer"
+          },
+          "feature_69": {
+            "type": "integer"
+          },
+          "feature_70": {
+            "type": "integer"
+          },
+          "feature_71": {
+            "type": "integer"
+          },
+          "feature_72": {
+            "type": "integer"
+          },
+          "feature_73": {
+            "type": "integer"
+          },
+          "feature_74": {
+            "type": "integer"
+          },
+          "feature_75": {
+            "type": "integer"
+          },
+          "feature_76": {
+            "type": "integer"
+          },
+          "feature_77": {
+            "type": "integer"
+          },
+          "feature_78": {
+            "type": "integer"
+          },
+          "feature_79": {
+            "type": "integer"
+          },
+          "feature_80": {
+            "type": "integer"
+          },
+          "feature_81": {
+            "type": "integer"
+          },
+          "feature_82": {
+            "type": "integer"
+          },
+          "feature_83": {
+            "type": "integer"
+          },
+          "feature_84": {
+            "type": "integer"
+          },
+          "feature_85": {
+            "type": "integer"
+          },
+          "feature_86": {
+            "type": "integer"
+          },
+          "feature_87": {
+            "type": "integer"
+          },
+          "feature_88": {
+            "type": "integer"
+          },
+          "feature_89": {
+            "type": "integer"
+          },
+          "feature_90": {
+            "type": "integer"
+          },
+          "feature_91": {
+            "type": "integer"
+          },
+          "feature_92": {
+            "type": "integer"
+          },
+          "feature_93": {
+            "type": "integer"
+          },
+          "feature_94": {
+            "type": "integer"
+          },
+          "feature_95": {
+            "type": "integer"
+          },
+          "feature_96": {
+            "type": "integer"
+          },
+          "feature_97": {
+            "type": "integer"
+          },
+          "feature_98": {
+            "type": "integer"
+          },
+          "feature_99": {
+            "type": "integer"
+          }
+        }
+      },
+      "PredictedPrice": {
+        "type": "object",
+        "properties": {
+          "prediction": {
+            "type": "integer"
+          }
+        }
+      },
+      "ValueError": {
+        "type": "object",
+        "properties": {
+          "Error": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "Home page"
+        ],
+        "summary": "Welcome",
+        "requestBody": {
+          "description": "Welcome to home page for testing",
+          "required": false,
+          "content": {
+
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Welcome to predict"
+          },
+          "404": {
+            "description": "API not working"
+          }
+        }
+      }
+    },
+    "/predict": {
+      "post": {
+        "tags": [
+          "Add predict API"
+        ],
+        "summary": "predict item price",
+        "requestBody": {
+          "description": "Predict price of new item",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItemObejct"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Invalid Request, please try again."
+          }
+        }
+      }
+    }
+  }
+}
