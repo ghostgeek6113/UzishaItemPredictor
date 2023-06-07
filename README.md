@@ -1,2 +1,2 @@
-# profesee_assessment
-Assessment for a professe role as a backend engineer
+# Uzisha Item
+API that run a price prediction on items being sold on Amazon
